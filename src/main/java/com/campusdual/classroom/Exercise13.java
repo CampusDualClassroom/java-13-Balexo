@@ -5,7 +5,8 @@ public class Exercise13 {
         FuelTank ft = new FuelTank();
         ft.showDetails();
         System.out.println("Actualización capacidad");
-        ft.actualFuel = -8;
+        System.out.println(ft.getActualFuel());
+        ft.setActualFuel(-8);
         ft.showDetails();
     }
 }
